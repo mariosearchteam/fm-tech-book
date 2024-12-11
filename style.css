@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 400 700;
+}
+@font-face {
+  font-family: "Martian Mono";
+  src: url("./assets/fonts/martian-mono/MartianMono-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 400 700;
+}
+/* color */
+/* typography */
+/* spacer */
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+  line-height: 1.2;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+dl,
+dd,
+figure {
+  margin: 0;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  line-height: 1.6;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: #385159;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #ff9a60 -11.37%, #062630 61.84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.text-preset-1 {
+  font-family: "Martian Mono", monospace;
+  font-weight: 700;
+  font-size: 2.375rem;
+  line-height: 120%;
+  letter-spacing: -2px;
+}
+
+.text-preset-2 {
+  font-family: "Martian Mono", monospace;
+  font-weight: 600;
+  font-size: 2.1rem;
+  line-height: 130%;
+  letter-spacing: -2px;
+  color: #062630;
+}
+
+.text-preset-3 {
+  font-family: "Martian Mono", monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.text-preset-4 {
+  font-family: "Martian Mono", monospace;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 110%;
+  letter-spacing: -1px;
+}
+
+.text-preset-4--regular {
+  font-weight: 400;
+}
+
+.text-preset-5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.text-preset-5--semibold {
+  font-weight: 600;
+}
+
+.text-preset-6 {
+  font-family: "Martian Mono", monospace;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.text-preset-7 {
+  font-family: "Martian Mono", monospace;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 120%;
+  letter-spacing: -1px;
+}
+
+@media (min-width: 60rem) {
+  .text-preset-1 {
+    font-size: 3.875rem;
+  }
+  .text-preset-2 {
+    font-size: 3.125rem;
+  }
+  .text-preset-3 {
+    font-size: 2.125rem;
+  }
+  .text-preset-6 {
+    font-size: 1.125rem;
+  }
+}
+/* Utility classes */
+.flow-content > * + * {
+  margin-top: 1rem;
+}
+
+.flow-content--large {
+  margin-top: 3rem;
+}
+
+.container {
+  padding: 0 1rem;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+}
+
+/* general */
+.header {
+  background: #faf5f3;
+  background-image: url("./assets/images/pattern-light-bg.svg");
+  background-repeat: no-repeat;
+  padding-bottom: 5rem;
+}
+
+.nav {
+  padding: 2rem 1rem;
+}
+
+.hero {
+  margin-top: 0.5rem;
+}
+.hero__image img {
+  margin-top: 4rem;
+  border-radius: 0.25rem;
+}
+
+.main {
+  background: #fff;
+  margin-top: 3rem;
+}
+
+.features li {
+  background: url("./assets/images/icon-check.svg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 2.5rem;
+}
+
+/* components */
+.cta-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background: #fff5ef;
+  border: 2px solid #062630;
+  border-radius: 0.5rem;
+  color: #062630;
+  text-transform: uppercase;
+}
+
+.star {
+  margin-bottom: -5px;
+}
+
+.star svg {
+  height: 26px;
+}
+
+.testimonial {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.testimonial img {
+  height: auto;
+  width: 100px;
+}
+
+@media (min-width: 60rem) {
+  .split {
+    flex-direction: row;
+  }
+}/*# sourceMappingURL=style.css.map */

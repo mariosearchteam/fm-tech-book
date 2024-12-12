@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Inter";
-  src: url("./assets/fonts/inter/Inter-VariableFont_opsz\,wght.ttf")
+  src: url("./assets/fonts/inter/Inter-VariableFont_opsz,wght.ttf")
     format("truetype");
   font-weight: 400 700;
 }
@@ -20,7 +20,6 @@ $clr-neutral-500: #9cc9da;
 $clr-neutral-700: #385159;
 $clr-neutral-900: #062630;
 $clr-accent-50: #fff5ef;
-$clr-accent-100: #fff5ef;
 $clr-accent-500: #fea36f;
 
 $text-gradient: linear-gradient(90deg, #ff9a60 -11.37%, #062630 61.84%);
@@ -609,11 +608,6 @@ body {
         margin-top: $spacer-800;
         text-align: center;
       }
-    }
-  }
-  .footer {
-    & hr {
-      max-width: 90%;
     }
   }
 }

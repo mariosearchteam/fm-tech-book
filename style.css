@@ -554,9 +554,4 @@ body {
     margin-top: 4rem;
     text-align: center;
   }
-}
-@media (min-width: 40rem) {
-  .footer hr {
-    max-width: 90%;
-  }
 }/*# sourceMappingURL=style.css.map */
